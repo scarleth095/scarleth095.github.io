@@ -1,6 +1,20 @@
 .bottom{
 	margin-bottom: 5cm;
 }
+
 .white{
 	color: white;
 }
+
+#earth{
+	background: url("home.png");
+	height:25px;
+	width: 25px;
+}
+
+#earth:hover {
+	background: url('white.png');
+	height:25px;
+	width:25px;
+}
+
