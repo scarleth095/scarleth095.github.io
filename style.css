@@ -8,13 +8,13 @@
 
 #earth{
 	background-image: url("home.png");
-	height:25px;
-	width: 25px;
+	height:15px;
+	width: 15px;
 }
 
 #earth:hover {
 	background-image: url('white.png');
-	height:25px;
-	width:25px;
+	height:15px;
+	width:15px;
 }
 
