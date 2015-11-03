@@ -11,7 +11,13 @@
     <title>Scarleth Estevez</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="animate.js"></script>
+    <script src="jquery.easing.1.3.js" ></script>
+    <script src="jquery.scrolldeck.js" ></script>
+    <script src="jquery.scrollorama.js" ></script>
+    <script src="jquery.scrollTo-1.4.3.1.min.js" ></script>
+
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -58,15 +64,21 @@
 
     <div class= "div-top">
         <div class="center-profile">
-            <p class="pad"> </p>
-            <h1 align="center" id="title-font"> Scarleth Estevez</h1>
-            <p align="center"><img class="img-circle" src="mypic.png" alt="My PIC" height="300px" width="300px"> </p>
-            <p align="center"> 
-                <a href="https://github.com/scarleth095"><img src ="github.png" height="50px" width="50px"> </a> <!--github -->
-                <a href="https://www.linkedin.com/in/scarlethestevez"><img src ="linkedin.gif" height="50px" width="50px"> </a> <!--linkedin-->
-                <a href="https://instagram.com/la_vie__en__rose/"><img src ="insta.gif" height="50px" width="50px"> </a> <!--instgram -->
-                <a href=""><img src =""> </a> <!--mail -->
-            </p>
+            <div class="slide">
+                <p class="pad"> </p>
+                <h1 align="center" id="title-font"> Scarleth Estevez</h1>
+                <p align="center"><img class="img-circle" src="mypic.png" alt="My PIC" height="300px" width="300px"> </p>
+                <p align="center"> 
+                    
+
+                    <a href="https://github.com/scarleth095"><img src ="github.png" height="50px" width="50px"> </a> <!--github -->
+                    <a href="https://www.linkedin.com/in/scarlethestevez"><img src ="linkedin.gif" height="50px" width="50px"> </a> <!--linkedin-->
+                    <a href="https://instagram.com/la_vie__en__rose/"><img src ="insta.gif" height="50px" width="50px"> </a> <!--instgram -->
+                    <a href=""><img src =""> </a> <!--mail -->
+
+
+                </p>
+            </div>
 
 
      </div> <!--Center Profile -->
@@ -85,8 +97,8 @@
 
 
     <div class= "div-bottom">
-        <div>
-            <p>this is the content </p>
+        <div class="slide">
+            <p class="animate-in" data-animation="fly-in-left">this is the content </p>
         </div>
 
 
