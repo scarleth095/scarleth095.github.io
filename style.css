@@ -25,8 +25,18 @@
     border-radius: 50%;
 }
 
-#center-profile{
-	float: center;
-	position: absolute
+div.center-profile{
+	height: 10em;
+    position: relative
 
+
+}
+div.center-profile p{
+	 margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
