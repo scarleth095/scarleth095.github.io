@@ -20,3 +20,13 @@
     z-index: 2;
     position:relative;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#center-profile{
+	float: center;
+	position: absolute
+
+}
