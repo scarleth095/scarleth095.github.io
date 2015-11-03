@@ -18,3 +18,23 @@
 	width:15px;
 }
 
+.div-top{
+    height:auto;
+    min-height:100%;
+    width:100%;    
+    position:fixed;
+    top:0;
+    left:0;
+    background:#ff0;
+    z-index:500;
+   
+}
+
+
+.div-bottom {
+    width:100%;    
+    background:#0ff;
+    margin-top:100%;
+    z-index:600;
+    position:relative;
+}
