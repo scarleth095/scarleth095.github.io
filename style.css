@@ -1,22 +1,4 @@
-.bottom{
-	margin-bottom: 5cm;
-}
 
-.white{
-	color: white;
-}
-
-#earth{
-	background-image: url("home.png");
-	height:15px;
-	width: 15px;
-}
-
-#earth:hover {
-	background-image: url('white.png');
-	height:15px;
-	width:15px;
-}
 
 .div-top{
     height:auto;
