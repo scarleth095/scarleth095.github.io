@@ -32,6 +32,13 @@
 	padding: center;
 }
 
+.center-text{
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+
+
+}
 #title-font{
 	font-size: 500%;
 	color: white;
