@@ -25,7 +25,6 @@
     position:fixed;
     top:0;
     left:0;
-    background:#ff0;
     z-index:500;
     background-image: url("back.jpg");
    
@@ -34,7 +33,7 @@
 
 .div-bottom {
     width:100%;    
-    background:#0ff;
+    background:#black;
     margin-top:100%;
     z-index:600;
     position:relative;
