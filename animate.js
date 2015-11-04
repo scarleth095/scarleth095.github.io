@@ -12,9 +12,9 @@ $(window).scroll(function(){
 	});
 
 	
-	if (wScroll>=947){
+	if (wScroll>=900){
 		$('.center-text').css({
-		'transform': 'translate(0px,0px'+ wScroll /4 + '%)'
+		'transform': 'translate(0px,'+ wScroll /4 + '%)'
 		});
 	}
 
