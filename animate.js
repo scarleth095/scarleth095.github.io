@@ -4,7 +4,7 @@ $(window).scroll(function(){
 	var wScroll= $(this).scrollTop();
 
 	$('.inside').css({
-		'transform': 'translate(0px,'+ wScroll /2 + '%)'
+		'transform': 'translate(0px,'+ wScroll /3 + '%)'
 
 
 
