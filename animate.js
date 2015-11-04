@@ -11,16 +11,30 @@ $(window).scroll(function(){
 
 
 });
+	
 
 $(document).ready(function(){
+	var on=true;
 
-	$('#wordpress').click(function(){
-		$('#portfolio').css({
-		'height': '1000px'
+	if(on){
+		$('#wordpress').click(function(){
+			$('#portfolio').css({
+			'height': '1000px'
+				});
+			on=false;
+			}
+		}
 
-		});
 
+	else{
+		$('#wordpress').click(function(){
+			$('#portfolio').css({
+				'height': '600px'
+				});
+			on=true;
 
+			}
+		}
 
 
 
