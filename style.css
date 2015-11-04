@@ -176,3 +176,16 @@ input{
 
 
 }
+
+.info-links{
+	position:relative;
+	z-index: 3;
+	background-image: url("linkback.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-color: black;
+	border-radius: 30px;
+
+
+}
