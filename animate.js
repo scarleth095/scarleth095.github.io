@@ -53,7 +53,7 @@ $(document).ready(function(){
 				});
 
 			//$(".hidden").show();
-			//$('#mlh-stuff').show();
+			$('#mlh-stuff').show();
 			
 
 			on=false;
