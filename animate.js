@@ -16,7 +16,7 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
 	//$(".hidden").hide();
-	//$('#mlh-stuff').hide();
+	$('#mlh-stuff').hide();
 
 
 
