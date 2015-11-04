@@ -136,4 +136,9 @@ input{
 #mlh-stuff{
 	padding-left: 250px;
 	position: relative;
+
+
+}
+.rounded-edges{
+	border-radius: 30px;
 }
