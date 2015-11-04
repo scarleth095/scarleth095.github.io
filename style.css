@@ -1,6 +1,6 @@
 #header{
 	position: :relative;
-	height: 600px;
+	height: 500px;
 	background-image: url("back.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 }
 #moving-header{
 	position: relative;
-	height:600px;
+	height:500px;
 
 }
 .pad{
@@ -37,7 +37,7 @@
 }
 #title-font{
 	font-size: 500%;
-	color: white;
+	color: black;
 	font-family: 'Cherry Swash', cursive;
 	letter-spacing: 10px;
 
