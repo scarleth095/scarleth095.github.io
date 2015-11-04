@@ -48,6 +48,9 @@
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	border-color: black;
+	border-radius: 30px;
+
 
 }
 #resume{
@@ -57,6 +60,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	border-color: black;
+	border-radius: 30px;
+
 
 }
 #footer{
@@ -66,6 +72,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	border-color: black;
+	border-radius: 30px;
+
 
 }
 
