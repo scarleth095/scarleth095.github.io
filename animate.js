@@ -12,13 +12,15 @@ $(window).scroll(function(){
 	});
 
 	
-
-	$('.center-text').css({
+	if (wScroll>=947){
+		$('.center-text').css({
 		'transform': 'translate(0px,0px'+ wScroll /4 + '%)'
+		});
+	}
 
 
 
-	});
+	
 
 
 
