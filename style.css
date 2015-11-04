@@ -154,6 +154,7 @@ input{
 
 
 .projectheader{
+	z-index: 0;
 	position: :relative;
 	height: 500px;
 	background-image: url("projectheader.jpg");
