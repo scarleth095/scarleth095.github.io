@@ -24,14 +24,15 @@
 
 
 #bottom{
-	position:absolute;
+	position:relative;
 	z-index: 2;
 	background-color: white;
+	background-attachment: fixed;
 
 }
 
 #portfolio{
-	position:absolute;
+	position:relative;
 	z-index: 3;
 	background-color: black;
 
