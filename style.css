@@ -2,7 +2,7 @@
 	position: :fixed;
 	height: 600px;
 	background-image: url("back.jpg");
-	background-size:contain;
+	background-size:cover;
 	background-repeat: no-repeat;
 
 
