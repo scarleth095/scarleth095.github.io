@@ -11,7 +11,7 @@
 
 
 #moving-header{
-	position: absolute;
+	position: relative;
 	padding-top: 10px;
 	height:500px;
 	padding: center;
