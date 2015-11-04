@@ -8,20 +8,21 @@
 
 
 }
+
+
 #moving-header{
 	position: absolute;
-	padding-top: 50px;
+	padding-top: 10px;
 	height:500px;
 	padding: center;
-	padding-left: 50%;
-	padding-right: 50%;
 
 }
+
+
 .pad{
 	padding-top: 50px;
 }
 
-}
 
 .img-circle {
     border-radius: 50%;
