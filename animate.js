@@ -15,8 +15,10 @@ $(window).scroll(function(){
 
 
 $(document).ready(function(){
-	//$(".hidden").hide();
+
 	$('#mlh-stuff').hide();
+	$('wordpress-stuff').hide();
+	$('folder-stuff').hide();
 
 
 
@@ -28,6 +30,10 @@ $(document).ready(function(){
 			$('#portfolio').css({
 				'height': '1000px'
 				});
+			$('wordpress-stuff').show();
+			$('#mlh-stuff').hide();
+			$('folder-stuff').hide();
+
 
 			on=false;
 			}
@@ -39,6 +45,9 @@ $(document).ready(function(){
 				$('#portfolio').css({
 					'height': '600px'
 					});
+				$('#mlh-stuff').hide();
+				$('wordpress-stuff').hide();
+				$('folder-stuff').hide();
 				on=true;
 			}
 			
@@ -52,8 +61,10 @@ $(document).ready(function(){
 				'height': '1000px'
 				});
 
-			//$(".hidden").show();
+		
 			$('#mlh-stuff').show();
+			$('wordpress-stuff').hide();
+			$('folder-stuff').hide();
 			
 
 			on=false;
@@ -69,6 +80,8 @@ $(document).ready(function(){
 					'height': '600px'
 					});
 				$('#mlh-stuff').hide();
+				$('wordpress-stuff').hide();
+				$('folder-stuff').hide();
 				on=true;
 			}
 			
@@ -82,6 +95,9 @@ $(document).ready(function(){
 			$('#portfolio').css({
 				'height': '1000px'
 				});
+			$('#mlh-stuff').hide();
+			$('wordpress-stuff').hide();
+			$('folder-stuff').show();
 
 			on=false;
 			}
@@ -93,6 +109,9 @@ $(document).ready(function(){
 				$('#portfolio').css({
 					'height': '600px'
 					});
+				$('#mlh-stuff').hide();
+				$('wordpress-stuff').hide();
+				$('folder-stuff').hide();
 				on=true;
 			}
 			
