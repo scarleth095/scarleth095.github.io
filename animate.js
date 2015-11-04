@@ -39,6 +39,53 @@ $(document).ready(function(){
 			
 
 		});
+
+		$('#mlh').click(function(){
+			if(on){
+
+			$('#portfolio').css({
+				'height': '1000px'
+				});
+
+			on=false;
+			}
+
+
+			else{
+				console.log('its false')
+
+				$('#portfolio').css({
+					'height': '600px'
+					});
+				on=true;
+			}
+			
+
+		});
+
+
+		$('#folder').click(function(){
+			if(on){
+
+			$('#portfolio').css({
+				'height': '1000px'
+				});
+
+			on=false;
+			}
+
+
+			else{
+				console.log('its false')
+
+				$('#portfolio').css({
+					'height': '600px'
+					});
+				on=true;
+			}
+			
+
+		});
 		
 
 
