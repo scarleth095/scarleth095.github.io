@@ -16,13 +16,13 @@ $(window).scroll(function(){
 $(document).ready(function(){
 	var on=true;
 
-	if(on){
+	if(on==true){
 		$('#wordpress').click(function(){
 			$('#portfolio').css({
 			'height': '1000px'
 				});
 			on=false;
-			}
+			});
 		}
 
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
 				});
 			on=true;
 
-			}
+			});
 		}
 
 
