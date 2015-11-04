@@ -68,6 +68,7 @@ $(document).ready(function(){
 				$('#portfolio').css({
 					'height': '600px'
 					});
+				$('#mlh-stuff').hide();
 				on=true;
 			}
 			
