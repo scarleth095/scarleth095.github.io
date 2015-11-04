@@ -52,8 +52,8 @@ $(document).ready(function(){
 				'height': '1000px'
 				});
 
-			$(".hidden").show();
-			$('#mlh-stuff').show();
+			//$(".hidden").show();
+			//$('#mlh-stuff').show();
 			
 
 			on=false;
