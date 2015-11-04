@@ -17,10 +17,10 @@
 	position: absolute;
 	
 	z-index: 1;
-	
+
 
 }
-div.moving-header{
+.inside{
 	position: center;
 
 }
