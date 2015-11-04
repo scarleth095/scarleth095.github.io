@@ -11,13 +11,21 @@
 
 
 .moving-header{
-	position: center;
+	height: 100px;
+	width: 100%;
+
+	position: absolute;
 	
 	z-index: 1;
-	
-
+	margin-top: -50px;
+	padding-top: 50%;
 
 }
+div.moving-header{
+	position: center;
+
+}
+
 
 #bottom{
 	position:absolute;
