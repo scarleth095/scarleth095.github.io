@@ -1,5 +1,6 @@
 input{
 	border:0 none;
+	outline:none;
 }
 #image{
 	background-color: black;
