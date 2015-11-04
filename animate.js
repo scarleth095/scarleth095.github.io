@@ -18,6 +18,7 @@ $(document).ready(function(){
 
 	if(on){
 		console.log('its on')
+		on=false;
 
 		$('#wordpress').click(function(){
 			
@@ -27,7 +28,7 @@ $(document).ready(function(){
 				});
 			
 
-			on=false;
+			
 
 			});
 		}
@@ -35,13 +36,13 @@ $(document).ready(function(){
 
 	else{
 		console.log('its false')
+		on=true;
 		$('#wordpress').click(function(){
 
 			$('#portfolio').css({
 				'height': '600px'
 				});
 
-			on=true;
 
 			});
 		}
