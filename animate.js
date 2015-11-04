@@ -11,3 +11,24 @@ $(window).scroll(function(){
 
 
 });
+
+$(document).ready(function(){
+
+	$('#wordpress').click(function(){
+		$('#portfolio').css({
+		'height': '1000px'
+
+		});
+
+
+
+
+
+	});
+
+
+
+
+
+
+};)
