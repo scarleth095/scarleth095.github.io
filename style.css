@@ -18,6 +18,10 @@
 
 }
 
+#bottom{
+	z-index: 2;
+}
+
 
 .pad{
 	padding-top: 50px;
