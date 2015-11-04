@@ -22,7 +22,7 @@ $(window).scroll(function(){
 	}
 	else {
 		('.center-text').css({
-		'transform': 'translate(0px,0%)'
+		'transform': 'translate(0px,0px)'
 		});
 
 	}
