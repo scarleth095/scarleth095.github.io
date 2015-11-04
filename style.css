@@ -161,5 +161,18 @@ input{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
+}
+
+.info{
+	position:relative;
+	z-index: 2;
+	background-image: url("woodproj.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-color: black;
+	border-radius: 30px;
+
+
 
 }
