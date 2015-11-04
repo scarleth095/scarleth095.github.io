@@ -16,13 +16,19 @@ $(window).scroll(function(){
 $(document).ready(function(){
 	var on=true;
 
-	if(on==true){
+	if(on){
 		console.log('its on')
+
 		$('#wordpress').click(function(){
+			
+
 			$('#portfolio').css({
 			'height': '1000px'
 				});
+			
+
 			on=false;
+
 			});
 		}
 
@@ -30,9 +36,11 @@ $(document).ready(function(){
 	else{
 		console.log('its false')
 		$('#wordpress').click(function(){
+
 			$('#portfolio').css({
 				'height': '600px'
 				});
+			
 			on=true;
 
 			});
@@ -40,7 +48,7 @@ $(document).ready(function(){
 
 
 
-	});
+});
 
 
 
