@@ -2,7 +2,7 @@
 	position: :relative;
 	height: 500px;
 	background-image: url("back.jpg");
-	background-size:auto 600px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
