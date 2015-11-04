@@ -2,7 +2,7 @@
 	position: :relative;
 	height: 500px;
 	background-image: url("back.jpg");
-	background-size: cover;
+	background-size: 100% 600px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
@@ -27,7 +27,7 @@
 	position:relative;
 	z-index: 2;
 	background-image: url("white.jpg");
-	background-size: cover;
+	background-size: 100% 400px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
@@ -38,7 +38,7 @@
 	position:relative;
 	z-index: 3;
 	background-image: url("black.jpg");
-	background-size: cover;
+	background-size: 100% 600px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
