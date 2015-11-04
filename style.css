@@ -23,7 +23,7 @@ input{
 	height: 100px;
 	width: 100%;
 
-	position: absolute;
+	position: relative;
 	
 	z-index: 1;
 
