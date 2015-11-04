@@ -53,6 +53,11 @@ $(document).ready(function(){
 				});
 
 			on=false;
+
+			$('#mlh-stuff').show();
+			$(".hidden").show();
+
+
 			}
 
 
@@ -91,6 +96,9 @@ $(document).ready(function(){
 			
 
 		});
+
+
+
 		
 
 
