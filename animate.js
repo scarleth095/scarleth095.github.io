@@ -40,7 +40,7 @@ $(document).ready(function(){
 			$('#portfolio').css({
 				'height': '600px'
 				});
-			
+
 			on=true;
 
 			});
@@ -55,4 +55,3 @@ $(document).ready(function(){
 
 
 
-});
