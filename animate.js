@@ -15,6 +15,10 @@ $(window).scroll(function(){
 
 
 $(document).ready(function(){
+	$(".hidden").hide();
+
+
+
 	var on=true;
 	
 		$('#wordpress').click(function(){
