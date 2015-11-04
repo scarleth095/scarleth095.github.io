@@ -11,7 +11,9 @@
 
 
 .moving-header{
-	position: relative;
+	position: center;
+	margin-top: -50px;
+	padding-top: 50%;
 	z-index: 1;
 	
 
