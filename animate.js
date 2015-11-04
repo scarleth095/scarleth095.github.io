@@ -52,10 +52,11 @@ $(document).ready(function(){
 				'height': '1000px'
 				});
 
-			on=false;
-
-			$('#mlh-stuff').show();
 			$(".hidden").show();
+			$('#mlh-stuff').show();
+			
+
+			on=false;
 
 
 			}
