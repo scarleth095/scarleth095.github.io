@@ -9,7 +9,8 @@
 
 }
 #moving-header{
-	position: relative;
+	position: absolute;
+	padding-top: 50px;
 	height:500px;
 
 }
