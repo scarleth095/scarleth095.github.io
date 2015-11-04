@@ -14,7 +14,7 @@ $(window).scroll(function(){
 	
 	
 	$('.center-text').css({
-		'transform': 'translate(0px,'+ wScroll /4 + '%)'
+		'transform': 'translate(0px,'+ (wScroll-527) /4 + '%)'
 		});
 	
 
