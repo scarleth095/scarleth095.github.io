@@ -160,7 +160,7 @@ input{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin:0 auto;
+	margin:0 0;
 
 }
 
@@ -173,7 +173,7 @@ input{
 	background-attachment: fixed;
 	border-color: black;
 	border-radius: 30px;
-	margin:0 auto;
+	margin:0 0;
 
 
 
@@ -188,7 +188,7 @@ input{
 	background-attachment: fixed;
 	border-color: black;
 	border-radius: 30px;
-	margin:0 auto;
+	margin:0 0;
 
 
 }
