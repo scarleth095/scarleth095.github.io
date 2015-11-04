@@ -30,6 +30,13 @@
 
 }
 
+#portfolio{
+	position:absolute;
+	z-index: 3;
+	background-color: black;
+
+}
+
 
 .pad{
 	padding-top: 50px;
