@@ -13,39 +13,36 @@ $(window).scroll(function(){
 });
 	
 
+
 $(document).ready(function(){
 	var on=true;
-
-	if(on){
-		console.log('its on')
-		on=false;
-
+	
 		$('#wordpress').click(function(){
-			
+			if(on){
 
 			$('#portfolio').css({
-			'height': '1000px'
-				});
-			
-
-			
-
-			});
-		}
-
-
-	else{
-		console.log('its false')
-		on=true;
-		$('#wordpress').click(function(){
-
-			$('#portfolio').css({
-				'height': '600px'
+				'height': '1000px'
 				});
 
+			on=false;
+			}
 
-			});
-		}
+
+			else{
+				console.log('its false')
+
+				$('#portfolio').css({
+					'height': '600px'
+					});
+				on=true;
+			}
+			
+
+		});
+		
+
+
+	
 
 
 
