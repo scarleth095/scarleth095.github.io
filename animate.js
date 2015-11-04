@@ -17,6 +17,7 @@ $(document).ready(function(){
 	var on=true;
 
 	if(on==true){
+		console.log('its on')
 		$('#wordpress').click(function(){
 			$('#portfolio').css({
 			'height': '1000px'
@@ -27,6 +28,7 @@ $(document).ready(function(){
 
 
 	else{
+		console.log('its false')
 		$('#wordpress').click(function(){
 			$('#portfolio').css({
 				'height': '600px'
