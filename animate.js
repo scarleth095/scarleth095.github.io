@@ -12,12 +12,14 @@ $(window).scroll(function(){
 	});
 
 	
+	while(wScroll>527){
+
 	
 	$('.center-text').css({
 		'transform': 'translate(0px,'+ (wScroll-527) /4 + '%)'
 		});
 	
-
+	}
 
 	
 
