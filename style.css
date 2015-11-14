@@ -1,195 +1,86 @@
-input{
-	border:0 none;
-	outline:none;
+body{
+	margin: 0;
+	padding: 0;
+
 }
-#image{
-	background-color: black;
+.img-circle{
+	border-radius: 50%;
+
+}
+.PAD{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: 'Pacifico', cursive;
+}
+a{
+	text-decoration: none !important;
+}
+
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 25px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+
 
 }
 
+}
 #header{
-	position: :relative;
-	height: 500px;
-	background-image: url("back.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
-
-}
-
-
-.moving-header{
-	height: 100px;
-	width: 100%;
-
-	position: relative;
+	background: url("./images/header-back.jpg");
+	background-size: cover;
+	background-color: #f2f2f2;
+	height:100vh;
+	width:100%;
 	
-	z-index: 0;
-
-
+	
+	z-index: -1;
 }
-
-
 
 #about{
-	position:relative;
-	z-index: 2;
-	background-image: url("white.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-color: black;
-	border-radius: 30px;
-
+	background-color: #e5fff2;
+	width: 100%;
+	min-height: 1000px;
+	
 
 }
 
-#portfolio{
-	position:relative;
-	z-index: 3;
-	background-image: url("black.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-color: black;
-	border-radius: 30px;
-	height: 600px;
-
-
-}
-#resume{
-	position:relative;
-	z-index: 4;
-	background-image: url("white.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-color: black;
-	border-radius: 30px;
-
-
-}
-#footer{
-	position:relative;
-	z-index: 5;
-	background-image: url("black.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-color: black;
-	border-radius: 30px;
-
+#project{
+	width: 100%;
+	min-height: 1000px;
+	background-color: #f2f2f2;
 
 }
 
 
-.pad{
-	padding-top: 50px;
-}
-
-
-.img-circle {
-    border-radius: 50%;
-}
-
-.center{
-	text-align: center;
-	padding: center;
-	font-family: 'Cherry Swash', cursive;
+#name-font{
+	color: #20c2c5;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
 
 }
 
+.font-cursive{
+	font-family: 'Pacifico', cursive;
+}
+
+.blue{
+	color: #20c2c5;
+}
+.move-up{
+	padding-left: 8px;
+	padding-right: 8px;
+}
 .center-text{
-	text-align: center;
-	padding-right: 100px;
-	padding-left: 100px;
-
-
-}
-#title-font{
-	font-size: 500%;
-	color: black;
-	font-family: 'Cherry Swash', cursive;
-	letter-spacing: 10px;
-
-}
-.font{
-	font-family: 'Cherry Swash', cursive;
-
-}
-#navfont{
-		font-family: 'Cherry Swash', cursive;
-		font-size: 30px;
-
-}
-
-.pad-right{
-	padding-right: 100px;
-}
-
-.pad-top{
-	padding-top: 100px;
-}
-
-
-#mlh-stuff{
-	padding-left: 250px;
-	position: relative;
-
-
-}
-.rounded-edges{
-	border-radius: 30px;
-
-
-}
-
-
-#padrel{
-	padding-top: 30px;
-}
-
-
-
-
-.projectheader{
-	z-index: 0;
-	position: :relative;
-	height: 500px;
-	background-image: url("projectheader.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin:0 0;
-
-}
-
-.info{
-	position:relative;
-	z-index: 2;
-	background-image: url("woodproj.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-spacing: 0px;
-	border-radius: 30px;
-	margin:0 0;
-
-
-
-}
-
-.info-links{
-	position:relative;
-	z-index: 3;
-	background-image: url("whitewoodpro.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border-spacing: 0px;
-	border-radius: 30px;
-	margin:0 0;
-
+	text-align: justify;
+	padding-right: 15%;
+	padding-left: 15%;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 20px;
+	text-indent: 60px;
+	line-height: 2.5;
 
 }
