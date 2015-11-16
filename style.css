@@ -60,6 +60,7 @@ a{
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 	letter-spacing: 3px;
+	
 
 }
 
@@ -70,6 +71,10 @@ a{
 .blue{
 	color: #20c2c5;
 }
+.darkblue{
+	color: #19979a;
+	font-weight: bold;
+}
 .move-up{
 	padding-left: 8px;
 	padding-right: 8px;
@@ -78,7 +83,9 @@ a{
 	text-align: justify;
 	padding-right: 15%;
 	padding-left: 15%;
-	font-family: 'Sorts Mill Goudy', serif;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 900;
+
 	font-size: 20px;
 	text-indent: 60px;
 	line-height: 2.5;
