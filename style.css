@@ -10,9 +10,10 @@ body{
 }
 .PAD{
 	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 	font-family: 'Pacifico', cursive;
 }
+
 a{
 	text-decoration: none !important;
 }
