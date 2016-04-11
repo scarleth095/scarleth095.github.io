@@ -5,7 +5,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background-color: black;
 }
 
 html {
@@ -75,6 +75,28 @@ a:focus {
 }
 .left{
     float: left;
+}
+.pad-little{
+    padding-bottom: 10px;
+}
+.thumbnail{
+    
+    background-color: rgba(140, 153, 166,.7);
+    border-color: slategray;
+    border-radius: 20px;
+    
+    
+}
+.well{
+
+    background-color: darkslategrey;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 30px gray;
+}
+.thumbnail .caption{
+    color: white;
 }
 
 .navbar-custom {
@@ -167,7 +189,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../image/107630-Yosemite_National_Park-nature-mountain-trees-mist.jpg) no-repeat bottom center scroll;
+    background: url(../image/newback2.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,17 +303,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 
 
 @media(min-width:767px) {
