@@ -14,7 +14,9 @@
     <title> | | Scarleth Estevez | |</title>
 
     <!-- Bootstrap Core CSS -->
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -42,6 +44,7 @@
   ga('send', 'pageview');
 
     </script>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
@@ -51,8 +54,8 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                 <span class="bold ">S</span><span class="light">carleth</span> <span class="bold">E</span><span class="light">stevez</span>
+                  <a class="navbar-brand page-scroll" href="#page-top">
+                 <span class="light ">S</span><span class="light">carleth</span> <span class="light"> <i class="fa fa-heart" aria-hidden="true"></i> E</span><span class="light">stevez</span>
                 </a>
             </div>
 
@@ -90,73 +93,107 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading name">Scarleth Estevez</h1>
-                        <p class="intro-text ">Programmer. Student. Developer</p>
-                         <p align="center"> 
-            <a  class="icon" href="https://github.com/scarleth095"><i class="fa fa-github-square"></i>&nbsp;</a> <!--github -->
-            
+                    <div class="col-md-12">
+                       
+                        <center>
+                            <div id="divname" style="min-height:150px">
+                        <div id="name" style="display: none;" >
+                            <span  id="textname" >SCARLETH <span id="heart"><i class="fa fa-heart" aria-hidden="true"></i></span> ESTEVEZ</span>
+                            </div>
+                            </div>
+                        
+                         
+                            <div id="heightpar">
+                        <p  text-align="center"> 
+            <a id="icons1" class="icon" href="https://github.com/scarleth095"><i class="fa fa-github-square"></i></a> <!--github -->
+                            &nbsp;
+                            &nbsp;
+   
 
 
 
-            <a class="icon" href="https://www.linkedin.com/in/scarlethestevez"><i class="fa fa-linkedin-square"></i>&nbsp;</a> <!--linkedin-->
+            <a id="icons2"class="icon" href="https://www.linkedin.com/in/scarlethestevez"><i class="fa fa-linkedin-square"></i></a> <!--linkedin-->
+&nbsp;
+                            &nbsp;
 
 
 
 
-
-            <a class="icon" href="https://www.instagram.com/la_vie__en__rose/"><i class="fa fa-instagram"></i>&nbsp;</a> <!--instagram -->
-            
-
-
+            <a  id="icons3"class="icon" href="https://www.instagram.com/la_vie__en__rose/"><i class="fa fa-instagram"></i></a> <!--instagram -->
+&nbsp;
+                            &nbsp;
 
 
-            <a class="icon" href="https://twitter.com/ScarlethEstevez"><i class="fa fa-twitter-square"></i>&nbsp;</a> <!--twitter-->
-            
+
+
+            <a id="icons4"class="icon" href="https://twitter.com/ScarlethEstevez"><i class="fa fa-twitter-square"></i></a> <!--twitter-->
+&nbsp;
+                            &nbsp;
         </p>
-
-       
-
+                            </div>
+       <div id="heightpar">
+                        <div id="downbutton" >
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                            </div>
+                            </div>
+                        </center>
                     </div>
                 </div>
             </div>
         </div>
+        
     </header>
+    <script>
+            $(document).ready(function(){
+                setInterval(function(){ $("#name").fadeIn(3000); }, 1000);
+                setInterval(function(){ $("#icons1").fadeIn(1000); }, 3000);
+                setInterval(function(){ $("#icons2").fadeIn(1000); }, 4000);
+                setInterval(function(){ $("#icons3").fadeIn(1000); }, 5000);
+                setInterval(function(){ $("#icons4").fadeIn(1000); }, 6000);
+                 setInterval(function(){ $("#downbutton").fadeIn(2000); }, 7000);
+ 
+        
+    });
 
+</script>
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-         <div id="wrapper" class="clear">  
+    <section id="about" class=" container content-section text-center">
+  
              <div class="well well-lg">
-             <div class="row">
+             
                  
-
-  <div class="col-sm-6 col-md-4">
+<h1 class="text-left"><span class="label label-info full-width">About Me</span></h1>
+                 <div class="row">
+  <div class="col-sm-4 col-md-4">
+      
 
     <div class="thumbnail">
-        <img src="./image/me.jpg" class="img-circle"alt="Picture of Me" >
-        <div class="caption">
-        <h3>Scarleth Estevez</h3>
-      
-      </div>
+        <img src="./image/me.jpg" class="img-rounded"alt="Picture of Me" >
+       
     </div>
+    
   </div>
-
-        <p class="center-text" > 
-            <br>
+ <div class="col-sm-8 col-md-8">
+        <p class=" well center-text" > 
            
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Scarleth and I'm a Computer Science major at Boston University. I'm interested in software development. I've built websites, including my personal website, using a range of languages and frameworks such as HTML, CSS, jQuery, PHP, Javascript, WordPress, Google API Fonts, and other external libraries.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Scarleth and I'm a Computer Science major at Boston University. I'm interested in software development. I've built websites, including my personal website, using a range of languages and frameworks such as HTML, CSS, Ruby/Rails, Python, PHP, Javascript, WordPress, and other external libraries.
             <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've built many small projects using Python and Java. One of these projects includes a Connect Four game made with Python in which a user can compete with another player or an A.I program. I am also familiar with x86 Intel Assembly and C. To see some of the major projects I am working on and have worked on, check out my <a href="https://github.com/scarleth095">GITHUB</a>!</p>
-              
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've built many small projects using Python and Java. One of these projects includes a Connect Four game made with Python in which a user can compete with another player or an A.I program. I am also familiar with x86 Intel Assembly and C. To see some of the major projects I am working on and have worked on, check out my <a href="https://github.com/scarleth095">GITHUB</a>!
+ 
+           
             
+     </p>
+              
+           
+                 </div>
                  </div>
                   
             </div>
+        <div class="well well-lg">
              <p class="pad-top"></p>
-             <h1 class="text-left">My Interests:</h1>
+            <h1 class="text-left"><span class="label label-info full-width">My Interests</span></h1>
                  
                 
              <div class="row">
@@ -227,55 +264,81 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="container content-section text-center">
-         <div id="wrapper" class="clear">
-             <h1>Skills</h1>
-                <div class="progress">
-            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
-                <span class="sr-only">98% Complete</span>
-            </div>
-            <span class="progress-type">HTML / CSS</span>
-
-        </div>
-             <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 92%;">
-                <span class="sr-only">92% Complete</span>
-            </div>
-            <span class="progress-type">Python</span>
-           
-        </div>
-              <div class="progress">
-            <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                <span class="sr-only">90% Complete</span>
-            </div>
-            <span class="progress-type">Java</span>
-          
-        </div>
-           
-             <div class="progress">
-            <div class="progress-bar " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                <span class="sr-only">80% Complete</span>
-            </div>
-            <span class="progress-type">Javascript</span>
-       
-        </div>
-              <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                <span class="sr-only">70% Complete</span>
-            </div>
-            <span class="progress-type">C</span>
-    
-        </div>
+    <section id="skills" class=" container content-section text-center">
+         <div  class="well well-lg">
+             <h1><span class="label label-info full-width">Skills</span></h1>
+             <div class="col-md-6 ">
+             
+             <h1><span class="label label-danger1 full-width"> HTML / CSS </span></h1>
+                 <h1><span class="label label-danger2 full-width"> Python </span></h1>
+                 <h1><span class="label label-danger3 full-width"> Java </span></h1>
+             
+             </div>
+              <div class="col-md-6 ">
+             
+             <h1><span class="label label-danger4 full-width"> Javascript </span></h1>
+                 <h1><span class="label label-danger5 full-width"> Ruby/Rails </span></h1>
+                 <h1><span class="label label-danger6 full-width"> C </span></h1>
+             
+             </div>
+             <div style="clear:both"></div>
+            
+              
+             
                  
 
         </div>
+        <style>
+            .label-danger1{
+                border-radius: 15px;
+                border-color: slategray;
+                border-width: 5px;
+                border-style: inset;
+                background-color:slategray;
+            }
+            .label-danger2{
+                border-radius: 15px;
+                border-color: #5b0702;
+                border-width: 5px;
+                border-style: inset;
+                background-color:#5b0702;
+            }
+            .label-danger3{
+                border-radius: 15px;
+                border-color: #b7a631;
+                border-width: 5px;
+                border-style: inset;
+                 background-color:#b7a631;
+            }
+            .label-danger4{
+                 border-radius: 15px;
+                border-color: #70a9a0;
+                border-width: 5px;
+                border-style: inset;
+                 background-color:#70a9a0;
+            }
+            .label-danger5{
+                 border-radius: 15px;
+                border-color: #6e6b7c;
+                border-width: 5px;
+                border-style: inset;
+                background-color:#6e6b7c;
+            }
+            .label-danger6{
+                 border-radius: 15px;
+                border-color: #57585c;
+                border-width: 5px;
+                border-style: inset;
+                 background-color:#57585c;
+            }
+        </style>
         
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="container content-section text-center">
-        <div id="wrapper" class="clear">
-             <h1>Projects</h1>
+        <div class="well well-lg">
+            <h1><span class="label label-info full-width">Projects</span></h1>
             <div class="row">
                   <div class="col-sm-4 portfolio-item">
                     <a href="http://devpost.com/software/best-date-nite" class="portfolio-link" data-toggle="modal">
@@ -318,8 +381,8 @@
        
     </section>
      <section id="resume" class="container content-section text-center">
-          <div id="wrapper" class="clear">
-              <h1>Resume</h1>
+          <div class="well well-lg">
+              <h1><span class="label label-info full-width">Resume</span></h1>
               <img class="img-responsive img-rounded" src="./image/resume.png" alt="Chania">
               <p></p>
              
@@ -330,8 +393,8 @@
     </section>
     
     <section id="contact" class="container content-section">
-        <div id="wrapper" class="clear">
-            <span class= text-center><h1>Contact Me</h1></span>
+        <div id="wrapper" class="well well-lg">
+            <span class= text-center><h1><span class="label label-info full-width">Contact Me</span></h1></span>
             
 <!-- www.123contactform.com script begins here -->
 <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-1898458.html">
@@ -374,5 +437,6 @@
     <script src="./js/grayscale.js"></script>
 
 </body>
+    
 
 </html>
