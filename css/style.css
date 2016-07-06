@@ -107,6 +107,9 @@ a:focus {
      #heart{
          display:block; 
      }
+     .icons{
+         font-size:60px;
+     }
     }
 .icon{
     font-size: 80px;
