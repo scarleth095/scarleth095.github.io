@@ -13,7 +13,7 @@ html {
     height: 100%;
 }
 .name{
-     font-family: 'Homemade Apple', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 3px;
     font-weight: 700;
      margin: 0 0 35px;
@@ -88,7 +88,7 @@ a:focus {
     vertical-align: middle;
 }
 #textname{
-   
+   font-family: 'Josefin Sans', sans-serif;
     font-size:40px;
     letter-spacing: 8px;
     position: relative;
