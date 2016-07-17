@@ -5,7 +5,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: black;
+    background-color: #1a1a1a;
 }
 
 html {
@@ -83,7 +83,7 @@ a:focus {
 #name{
    
     
-    border-width: 5px;
+    border-width: 3px;
     border-color:#36c9ae;
     border-style: solid;
     height:150px;
@@ -243,11 +243,11 @@ a:focus {
 @media(min-width:768px) {
     .navbar-custom .navbar-brand {
     font-weight: 700;
-     color:black;
+     color:#1a1a1a;
     font-family: 'Josefin Sans', sans-serif;
 }
 .navbar-custom .nav-heart {
-     color:black;
+     color:#1a1a1a;
 }
     
     .navbar-custom {
@@ -263,8 +263,9 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 2px solid #36c9ae;
         background: #000;
+
 
     }
     .top-nav-collapse .navbar-brand {
@@ -285,7 +286,7 @@ a:focus {
     text-align: center;
     color: #fff;
     
-    background-color: #000;
+    background-color: #1a1a1a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
